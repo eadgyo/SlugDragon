@@ -1,0 +1,64 @@
+sol
+Point2D(2987, 1066)
+
+batiment1
+Point2D(840, 489)
+
+batiment2
+Point2D(1400, 755)
+
+batiment3
+Point2D(1786, 691)
+
+pont
+Point2D(2265, 552)
+
+batiment4
+Point2D(2775, 695)
+
+batiment5
+Point2D(3568, 796)
+
+batiment6
+Point2D(2872, 741)
+
+batiment7
+Point2D(4331, 707)
+
+aeration
+Point2D(3819, 615)
+
+supportPont
+Point2D(2032, 587)
+Point2D(2491, 593)
+
+sol1
+Point2D(139, 729)
+
+sol2
+Point2D(429, 729)
+
+sol3
+Point2D(834, 789)
+
+palissade
+Point2D(1105, 787
+porte
+Point2D(2033, 795)
+Point2D(2490, 795)
+
+
+for i in range(0, len(game.platforms)):
+                    while game.player.image.collision(game.platforms[i]) :
+
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/sol1.jpg')], Point2D(0, 429)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/sol1.jpg')], Point2D(276, 429)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/sol3.jpg')], Point2D(552, 429)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/palissade.jpg')], Point2D(1050, 200)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/batiment1.jpg')], Point2D(552, 250)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/sol.jpg')], Point2D(1050, 660)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/batiment2.jpg')], Point2D(1300, 460)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/batiment3.jpg')], Point2D(1510, 335)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/pont.jpg')], Point2D(2000, 350)))
+self.platforms.append(AdvImage([pygame.image.load('Others/Images/batiment4.jpg')], Point2D(2450, 330)))
+

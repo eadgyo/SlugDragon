@@ -1,0 +1,11 @@
+Controles :
+
+Q : Gauche
+S : Bas
+D : Droite
+Espace : Saut
+Shift : Courir
+Souris : Viser
+Clic gauche : Tirer
+
+Si Q et A sont inversés, il faut changer le dictionnaire de touches dans GamesFiles/Input.py
